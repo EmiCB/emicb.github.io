@@ -1,0 +1,11 @@
+body{
+	background: black; /* For browsers that do not support gradients */
+	/* For Safari 5.1 to 6.0 */
+	background: -webkit-repeating-radial-gradient(black, purple 15%);
+	/* For Opera 11.6 to 12.0 */
+	background: -o-repeating-radial-gradient(black, purple 15%);
+	/* For Firefox 3.6 to 15 */
+	background: -moz-repeating-radial-gradient(black, purple 15%);
+	/* Standard syntax */
+	background: repeating-radial-gradient(black, purple 15%);
+}
