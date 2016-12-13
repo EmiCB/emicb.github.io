@@ -14,8 +14,6 @@ body
 
 div.contentcontainer
 {
-	text-align: center;
-	
 	font-family: 'Roboto Slab', serif;
 	
 	height: auto%;
@@ -37,6 +35,7 @@ div.contentcontainer
 	list-style-type: none;
 	font-size: 25px;
 	border-bottom: solid black 3px;
+	text-align: center;
 }
 #nav li 
 {
@@ -60,4 +59,14 @@ div.contentcontainer
 	font-weight: bold;
 	font-size: 28px;
 	text-decoration: none;
+}
+
+div.paragraph
+{
+	text-align: center;
+}
+
+div.section
+{
+	
 }
