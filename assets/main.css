@@ -81,9 +81,9 @@ body {
 /* Content */
 #homecontent {
 	background-color: rgba(255,255,255,.7);
-	margin: 20px;
+	margin: 50px;
 	padding: 10px;
 	border-radius: 30px;
-	width: 68%;
+	width: 65%;
 	height: auto;
 }
