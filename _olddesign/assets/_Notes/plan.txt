@@ -1,0 +1,8 @@
+Website Plan:
+
+	Home Page
+		About Me
+			Contact Info
+			Links
+	Resume
+	
