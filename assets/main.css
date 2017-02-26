@@ -43,3 +43,28 @@ body {
 	float: right;
 }
 
+/* Scrollbar */
+.scroller::-webkit-scrollbar {
+    width: 12px;
+    height: 12px;
+}
+.scroller::-webkit-scrollbar-track {
+    background: white;
+}
+.scroller::-webkit-scrollbar-thumb {
+    background: #ddd;
+    visibility:hidden;
+}
+.scroller:hover::-webkit-scrollbar-thumb {
+    visibility:visible;
+}
+.scroller {
+    overflow: auto;
+    font: 16px/1.5 Arial;
+    color: #444;
+    border: 1px solid #ddd;
+    margin: 20px;
+    padding: 20px;
+    max-width: 300px;
+    height: 200px;
+}
