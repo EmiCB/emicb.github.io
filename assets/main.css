@@ -78,12 +78,12 @@ body {
     height: 200px;
 }
 
-/* */
+/* Content */
 #homecontent {
 	background-color: rgba(255,255,255,.7);
-	margin: 5px;
-	padding: 5px;
+	margin: 20px;
+	padding: 10px;
 	border-radius: 30px;
-	width: auto;
+	width: 68%;
 	height: auto;
 }
