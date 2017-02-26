@@ -1,6 +1,6 @@
 body {
 	margin: 0;
-	background-color: #515151;
+	background-color: #333333;
 }
 
 /* Nav Bar */
@@ -11,7 +11,7 @@ body {
 	list-style-type: none;
 	font-size: 25px;
 	text-align: center;
-	background-color: #383838;
+	background-color: #1e1e1e;
 	border: 0px 0 0px 0;
 }
 #nav li 
