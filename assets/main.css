@@ -9,6 +9,8 @@ body {
 	linear-gradient(#1d1d1d 25%, #1a1a1a 25%, #1a1a1a 50%, transparent 50%, transparent 75%, #242424 75%, #242424);
 	background-color: #131313;
 	background-size: 20px 20px;
+	
+	font-family: 'Roboto', sans-serif;
 }
 
 /* Nav Bar */
@@ -44,6 +46,21 @@ body {
 	font-weight: bold;
 	font-size: 28px;
 	text-decoration: none;
+}
+
+/* Search */
+input[type=text] {
+    width: 98%;
+	padding: 10px;
+	margin: 10px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 20px;
+    background-color: white;
+    background-image: url('searchicon.png'); /* does not work? */
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
 }
 
 /* Twitter Widget */
