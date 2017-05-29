@@ -1,0 +1,163 @@
+/* Body */
+body {
+	background: red; /* For browsers that do not support gradients */
+	background: -webkit-linear-gradient(160deg, #ccfffc, #cccdff, #e8f5ff); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(160deg, #ccfffc, #cccdff, 
+#ebccff); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(160deg, #ccfffc, #cccdff, 
+#ebccff); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(160deg, #ccfffc, #cccdff, 
+#ebccff); /* Standard syntax */
+
+	font-family: 'Roboto Slab', serif;
+}
+
+/* Links */
+a {
+	color: #743d96;
+	
+	text-decoration: underline;
+}
+a:hover {
+	color: #60337c;
+	
+    text-decoration: underline;
+	font-weight: bold;
+}
+
+/* Scrollbar */
+body::-webkit-scrollbar {
+    width: 0em;
+}
+
+/* Content */
+#homecontent {
+	background-color: rgba(255,255,255,.7);
+	
+	width: 45%;
+	height: auto;
+	
+	margin-top: 5%;
+	margin-left: auto;
+	margin-right: auto;
+	
+	padding:2%;
+	padding-left: 4%;
+	
+	border-radius: 30px;
+	
+	font-size: 1.6vw;
+	color: #3d3d3d;
+}
+
+/* Project Gallery */
+.gallerycontent{
+	margin-top: 3%;
+	margin-left: 4%;
+	margin-right: 4%;
+	margin-bottom: 5%;
+}
+.gallery {
+	background-color: rgba(255,255,255,.7);
+	
+    border: 1px solid #ccc;
+	border-radius: 1em;
+}
+
+.gallery:hover {
+    border: 1px solid #777;
+}
+
+.gallery img {
+    width: 100%;
+    height: auto;
+	
+	border-top-left-radius: 1em;
+	border-top-right-radius: 1em;
+}
+
+.desc {
+    padding: 15px;
+	
+    text-align: center;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.responsive {
+	width: 24.99999%;
+	
+    float: left;
+}
+
+@media only screen and (max-width: 700px){
+    .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    .responsive {
+        width: 100%;
+    }
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Résumé */
+#resumecontainer {
+	background-color: rgba(255,255,255,.7);
+	
+	width: 65%;
+	height: auto;
+	
+	margin-top: 5%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 5%;
+	
+	padding:2%;
+	padding-left: 4%;
+	padding-right: 4%;
+	
+	border-radius: 30px;
+	
+	font-size: 1.3vw;
+	color: #3d3d3d;
+}
+.date {
+	float: right;
+	
+	margin-top: 1%;
+}
+h1{
+    margin-top: 3%;
+	margin-bottom: 2%;
+    padding:0;
+}
+h2{
+    margin:0;
+    padding:0;
+}
+h3{
+    margin:0;
+    padding:0;
+}
+p {
+	margin-top: 1%;
+	padding: 0;
+}
+li {
+	margin-top: 1%;
+	padding: 0;
+}
+ul {
+	margin-top: 0;
+}
