@@ -6,16 +6,40 @@
 		<link rel="stylesheet" type="text/css" href="assets/stylesheets/main.css">
 		
 		<link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+		
+		<script src="assets/scripts/popup.js"></script>
 	</head>
 	<body>
 		<div id="header">Projects</div>
+		
+		<!--Searchbar-->
+		
+		
 		<div class = "gallerycontent">
+		
+			<!-- Pac Man Remake-->
 			<div class="responsive gallery">
-				<a target="_blank" href = "#" onclick="show('popup1')">
+				<a href = "#" onclick="show('popup1')">
 					<img src="assets/images/pmr1.png" alt="Pac-Man Remake"  width="300" height="200">
+					<div class="desc">Pac-Man Remake</div>
 				</a>
-				<div class="desc">Pac-Man Remake</div>
+				<div class="popup scrollable" id="popup1">
+					<a href="#" onclick="hide('popup1')"><img src="assets/images/exit.png" alt="X" id="x"></a>
+					
+					<img src="assets/images/pmr1.png" class="fullimg" alt="Pac-Man Remake"  width="300" height="200">
+					<p>This is a popup!</p>
+					<p>Overlay uses <b>box-shadow</b>.</p>
+					<p>(Doesn't block elements on background)</p>
+				</div>
 			</div>
+			<!-- -->
+			
+			
+			
 		</div>
+		
+		
+		
+		
 	</body>
 </html>

@@ -30,10 +30,20 @@ a:hover {
 	margin-bottom: 3%;
 }
 
-/* Scrollbar */
+/* Scrollbars */
 body::-webkit-scrollbar {
     width: 0em;
 }
+
+.popup::-webkit-scrollbar {
+    width: 1em;
+}
+
+.scrollable {
+    height: 100px; /* or any value */
+    overflow-y: auto;
+}
+
 /* Headers */
 #header {
 	font-size: 60px;
@@ -88,6 +98,9 @@ body::-webkit-scrollbar {
 	border-top-left-radius: 1em;
 	border-top-right-radius: 1em;
 }
+.fullimg {
+	border-radius: 1em;
+}
 
 .desc {
     padding: 15px;
@@ -123,6 +136,9 @@ body::-webkit-scrollbar {
     display: table;
     clear: both;
 }
+
+/*Search Bar*/
+
 
 /* Résumé */
 #resumecontainer {
@@ -176,19 +192,18 @@ ul {
 }
 
 /* Popups */ 
-/*
 .popup {
-  display: none;
-  position: fixed;
-  padding: 10px;
-  width: 280px;
-  left: 50%;
-  margin-left: -150px;
-  height: 180px;
-  top: 50%;
-  margin-top: -100px;
-  background: #FFF;
-  z-index: 20;
+	display: none;
+	position: fixed;
+	padding: 2%;
+	width: 60%;
+	margin-left: 15.5%;
+	margin-right: 15.5%;
+	height: 85%;
+	top: 7%;
+	background: #FFF;
+	z-index: 20;
+	border-radius: 1em;
 }
 
 #popup1 {
@@ -206,7 +221,6 @@ ul {
   background: rgba(0,0,0,0.5);
   z-index: -2;
 }
-
 #popup2:before {
   position: absolute;
   content: "";
@@ -217,4 +231,15 @@ ul {
   background: #FFF;
   z-index: -1;
 }
-*/
+
+#x {
+	float: right;
+	
+	margin-top: -2%;
+	margin-right: -1%;
+	text-decoration: none;
+	color: gray;
+	
+	height: 6%;
+	width: auto;
+}
