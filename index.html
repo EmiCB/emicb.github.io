@@ -1,20 +1,43 @@
-<DOCTYPE! html>
 <html>
 	<head>
-		<title> Emi Brown </title>
+		<title>Emi Brown | Home</title>
 		
 		<link rel="stylesheet" type="text/css" href="assets/stylesheets/main.css">
 		
 		<link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
 	</head>
-	<body>
-		<div id = "homecontent">
-			<p>I love coding and make lots of things.</p>
-			<p>I put all of my code on my <a href = "https://github.com/EmiCB">GitHub</a>!</p>
-			<p>You can take a look at some of my <a href = "projects.html">projects</a>.</p>
-			<p>I also make <a href = "tutorials.html">tutorials</a>.
-			<p>You can also look at my <a href = "resume.html">résumé</a>.</p>
-			<p>I post updates on my projects on <a href = "https://twitter.com/xEmiCBx">Twitter</a>.</p>
+	<body class="home">
+		<!-- NAVBAR-->
+		<ul class="navbar">
+			<li><a href="index.html" class="navhome active">Emi Brown</a></li>
+			
+			<!-- these links are backwards bc of float right -->
+			<li><a href="contact.html" class="navnormal navcontact">Contact Me</a></li>
+			<li><a href="projects.html" class="navnormal">Projects</a></li>
+			<li><a href="about.html" class="navnormal">About Me</a></li>
+		</ul>
+		
+		<!-- NAME-->
+		<div class="nametitle">
+			<p class="name">Emi Brown</p>
+			<p class="title">Programmer / Artist</p>
 		</div>
+		
+		<!-- LINKS BAR -->
+		<div id="imglinks">
+			<a href="https://github.com/EmiCB">
+				<img class="imglink" src="assets/images/github.png" alt="GitHub" > 
+			</a>
+			<a href="https://ldjam.com/users/emicb/">
+				<img class="imglink" src="assets/images/ludumdare.png" alt="Ludum Dare"> 
+			</a>
+			<a href="https://twitter.com/xEmiCBx">
+				<img class="imglink" src="assets/images/twitter.png" alt="Twitter"> 
+			</a>
+			<a href="https://emicb.itch.io/">
+			<img class="imglink" src="assets/images/itchio.png" alt="Itch.IO"> 
+			</a>
+		</div>
+		
 	</body>
 </html>
