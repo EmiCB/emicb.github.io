@@ -211,6 +211,8 @@ body::-webkit-scrollbar {
 	
     border: 1px solid #ccc;
 	border-radius: 1em;
+	
+	margin: 1em;
 }
 
 .gallery:hover {
@@ -284,32 +286,6 @@ body::-webkit-scrollbar {
 		z-index: 20;
 		
 		word-wrap: break-word;
-	}
-
-	#popup1 {
-		-webkit-box-shadow:  0px 0px 0px 9999px rgba(0, 0, 0, 0.5);
-		box-shadow:  0px 0px 0px 9999px rgba(0, 0, 0, 0.5);
-	}
-
-	#popup2:after {
-		position: fixed;
-		content: "";
-		top: 0;
-		left: 0;
-		bottom: 0;
-		right: 0;
-		background: rgba(0,0,0,0.5);
-		z-index: -2;
-	}
-	#popup2:before {
-		position: absolute;
-		content: "";
-		top: 0;
-		left: 0;
-		bottom: 0;
-		right: 0;
-		background: #FFF;
-		z-index: -1;
 	}
 
 	#x {
