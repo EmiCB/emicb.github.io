@@ -1,4 +1,4 @@
-$(".link").click(function(e){
+$(".projectlink").click(function(e){
     e.preventDefault();
     $(".popup").fadeIn(300,function(){$(this).focus();});
 });
