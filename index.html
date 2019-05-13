@@ -1,24 +1,82 @@
-<html>
+<!DOCTYPE html>
+<html lang="en-US">
     <head>
-        <title>Hi</title>
+        <title>Emi Brown</title>
+        <link rel="stylesheet" type="text/css" href="assets/css/main.css">
+        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+        <!-- METADATA -->
+        <meta charset="UTF-8">
+        <meta name="author" content="Emi Brown">
+        <meta name="description" content="Emi Brown's personal website.">
+        <meta name="keywords" content="Emi Brown, EmiCB">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
-        <h2>JSONS:</h2>
-        <ul>
-            <li><a href="https://pastebin.com/tzrvWSVs">Item texture</a></li>
-            <li><a href="https://pastebin.com/WBAG79Qk">Block state</a></li>
-            <li><a href="https://pastebin.com/e1WWbnEK">models/block</a></li>
-            <li><a href="https://pastebin.com/UzRLbq3c">Block models/item</a></li>
-            <li><a href="https://pastebin.com/XKPqtf02">Shaped Recipe</a></li>
-            <li><a href="https://pastebin.com/38GLR7xy">Shapeless Recipe</a></li>
-        </ul>
-        <h2>References:</h2>
-        <ul>
-            <li><a href="https://tinyurl.com/y7lfodta">Minecraft Hardness Values</a></li>
-            <li><a href="https://tinyurl.com/y789np2d">Minecraft Resistance Values</a></li>
-            <li><a href="https://tinyurl.com/y8fcfa3o">Minecraft Harvest Levels</a></li>
-            <li><a href="https://tinyurl.com/y9b4l2fp">Minecraft Light Levels</a></li>
-            <li><a href="https://crafting.thedestruc7i0n.ca/">Helpful Crafting Guideline</a></li>
-        </ul>
+        <!-- Page Header -->
+        <div class="row">
+            <div class="col-12">
+                <h1>Emi Brown</h1>
+                <hr/>
+            </div>
+        </div>
+        <!-- Bio & Picture -->
+        <div class="row">
+            <!-- Image -->
+            <div class="col-5">
+                <img id="pfp" src="assets/images/photo.jpg" alt="picture of me">
+            </div>
+            <!-- Bio -->
+            <div class="col-7">
+                <h3>Hi, I like to program things!</h3>
+                <p>I am a student driven by my love for video games and my desire to help others. Accessibility and universal design are very important to me.</p>
+            </div>
+        </div>
+        <!-- Projects -->
+        <div class="row">
+            <div class="col-12">
+                <hr/>
+                <h2>Projects</h2>
+                <hr/>
+            </div>
+        </div>
+        <!-- Row of Projects #1 -->
+        <div class="row">
+            <!-- Project #1 -->
+            <div class="col-6">
+                <!-- Project Screenshot Slideshow -->
+                <div class="screenshot-slideshow">
+                    <div class="slide1">
+                        <img src="assets/images/ludumdare42title.jpg" alt="title screen of space runner game">
+                    </div>
+                    <div class="slide1">
+                        <img src="assets/images/ludumdare42.jpg" alt="space runner gameplay: astronaut running and jumping over rocks and sliding under aliens">
+                    </div>
+                    <!-- next and previous buttons -->
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                </div>
+                <!-- Project Title & Description -->
+                <h4>Space Runner</h4>
+                <p>This game way my submission for the Ludum Dare 42 jam (theme: running out of space). It is not perfect, but I would like to keep it as is so I can continue to document my progress as I do more game jams in the future.</p>
+                <a href="https://emicb.itch.io/space-runner">Itch.io</a>
+                <a href="https://github.com/EmiCB/LudumDare42-SpaceRunner">GitHub</a>
+            </div>
+            <!-- Project #2 -->
+            <div class="col-6">
+                <!-- Project Screenshot Slideshow -->
+                <div class="screenshot-slideshow">
+
+                    <!-- next and previous buttons -->
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                </div>
+                <!-- Project Title & Description -->
+                <h4>RoomVR</h4>
+                <p>This is a virtual reality representation of Emma Donoghue's Room made for my Hero's Journey class' creative project. It uses Unity 2018.3.14f1 and GVR 1.2. Currently, it is an iOS app that runs on Google Cardboard. The user can change between the heights of Jack and Ma by pressing the button on the Cardboard (the equivalent of tapping the screen or clicking on a PC). Lighting can be changed by gazing at Skylight or Lamp’s shade for about 2 seconds. I chose to represent the objects in Room with simple shapes in order to more clearly show the amount of space that was available. Some smaller objects such as the foldable chairs, Plant, and Bunny are not in this scene, but may be added in the future.</p>
+                <a href="https://github.com/EmiCB/RoomVR">GitHub</a>
+            </div>
+        </div>
+        <!-- Slideshow JS File Link -->
+        <script type="text/javascript" src="assets/js/slideshow.js"></script>
     </body>
 </html>
