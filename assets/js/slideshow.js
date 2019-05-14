@@ -1,21 +1,19 @@
-var slideIndex = 1;
-showSlides(slideIndex);
+var slideIndex = [1,1];
+var slideId = ["slide1", "slide2"]
+showSlides(1, 0);
+showSlides(1, 1);
 
-function plusSlides(n) {
-  showSlides(slideIndex += n);
+function plusSlides(n, no) {
+  showSlides(slideIndex[no] += n, no);
 }
 
-function currentSlide(n) {
-  showSlides(slideIndex = n);
-}
-
-function showSlides(n) {
+function showSlides(n, no) {
   var i;
-  var slides = document.getElementsByClassName("slide1");
-  if (n > slides.length) {slideIndex = 1}
-  if (n < 1) {slideIndex = slides.length}
-  for (i = 0; i < slides.length; i++) {
-      slides[i].style.display = "none";
+  var x = document.getElementsByClassName(slideId[no]);
+  if (n > x.length) {slideIndex[no] = 1}
+  if (n < 1) {slideIndex[no] = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";
   }
-  slides[slideIndex-1].style.display = "block";
+  x[slideIndex[no]-1].style.display = "block";
 }

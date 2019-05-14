@@ -1,8 +1,15 @@
+/*
+Good Colors
+- c09bd8
+- ede3e9
+*/
+
 /* --- Page Styling --- */
-/* include padding and things as whole width & height of elements */
 * {
-  box-sizing: border-box;
-  font-family: 'Roboto', sans-serif;
+  box-sizing: border-box; /* include padding and things as whole width & height of elements */
+}
+html {
+    font-family: 'Roboto', sans-serif;
 }
 
 /* headers */
