@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 1551797121
+CRC: 2562252350
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: ab5cad8c26d5faa1218c685e3bc2a66f
+    Hash: 832312fbd1820a4250154c7aee529acd
   TypeTreeHash:
     serializedVersion: 2
     Hash: 798811b7255c82b34a9f8780c2ce846a
@@ -24,10 +24,10 @@ ClassTypes:
 - Class: 48
   Script: {instanceID: 0}
 Assets:
-- Assets/AssetBundles/~Molecules/FeH20S2(NO7)2.fbx
-- Assets/AssetBundles/~Molecules/KP(HO2)2.fbx
-- Assets/AssetBundles/~Molecules/CuZnSnS.fbx
-- Assets/AssetBundles/~Molecules/K3Fe(CN)6.fbx
-- Assets/AssetBundles/~Molecules/La2Al2O6.fbx
-- Assets/AssetBundles/~Molecules/Alum_structure.fbx
+- Assets/~AssetBundles/Molecules/La2Al2O6.prefab
+- Assets/~AssetBundles/Molecules/K3Fe(CN)6.prefab
+- Assets/~AssetBundles/Molecules/Alum_structure.prefab
+- Assets/~AssetBundles/Molecules/KP(HO2)2.prefab
+- Assets/~AssetBundles/Molecules/FeH20S2(NO7)2.prefab
+- Assets/~AssetBundles/Molecules/CuZnSnS.prefab
 Dependencies: []
