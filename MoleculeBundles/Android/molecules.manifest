@@ -1,0 +1,33 @@
+ManifestFileVersion: 0
+CRC: 4185176432
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 03499fdbb1bc6c23830cb5f72580e971
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 798811b7255c82b34a9f8780c2ce846a
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+Assets:
+- Assets/~AssetBundles/Molecules/La2Al2O6.prefab
+- Assets/~AssetBundles/Molecules/K3Fe(CN)6.prefab
+- Assets/~AssetBundles/Molecules/Alum_structure.prefab
+- Assets/~AssetBundles/Molecules/KP(HO2)2.prefab
+- Assets/~AssetBundles/Molecules/FeH20S2(NO7)2.prefab
+- Assets/~AssetBundles/Molecules/CuZnSnS.prefab
+Dependencies: []
