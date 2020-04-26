@@ -7,108 +7,45 @@
         <!-- METADATA -->
         <meta charset="UTF-8">
         <meta name="author" content="Emi Brown">
-        <meta name="description" content="Emi Brown's personal website.">
+        <meta name="description" content="Emi Brown's website.">
         <meta name="keywords" content="Emi Brown, EmiCB">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
-        <!-- Page Header -->
         <div class="row">
-            <div class="col-12">
-                <h1>Emi Brown</h1>
-                <hr/>
-            </div>
-        </div>
-        <!-- Bio & Picture -->
-        <div class="row">
-            <!-- Image -->
-            <div class="col-5">
-                <img id="pfp" src="assets/images/me.jpeg" alt="picture of me">
-            </div>
-            <!-- Bio -->
-            <div class="col-7">
-                <h3>Hi, I like to program things!</h3>
-                <p>I am a student driven by my love for video games and my desire to help others. Accessibility and universal design are very important to me. In the future, I would like to use a mixture of XR and games to assist people with medical issues whether they be physical or mental.</p>
-                <a href = https://github.com/EmiCB>GitHub</a>
-                <a href = https://twitter.com/xemicbx>Twitter</a>
-                <a href = https://emicb.itch.io/>Itch.io</a>
+            <div class="col-12" id="outer">
+                <div id="content">
+                    <h1 id="name">Emi Brown</h1>
+                    <p id="bio">I am a Computer Science student driven by my love for video games and my desire to help others. I like to make indie games in my spare time. In the future, I would like to use a mixture of XR and games to assist people.</p>
+                    <h4>Check out my</h4>
+                    <div class="row" id="linkslist">
+                        <div class="col-4">
+                            <a class="homelink" href="portfolio.html">PORTFOLIO</a>
+                        </div>
+                        <div class="col-4">
+                            <a class="homelink" href="https://emibrown-devlogs.blogspot.com/">BLOG</a>
+                        </div>
+                        <div class="col-4">
+                            <a class="homelink" href="">RESEARCH</a>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-4">
+                            <a href="https://github.com/EmiCB"><img src="assets/images/icons/github.svg" class="homeicon"></img></a>
+                        </div>
+                        <div class="col-4">
+                            <a href="https://twitter.com/xEmiCBx"><img src="assets/images/icons/twitter.svg" class="homeicon"></img></a>
+                        </div>
+                        <div class="col-4">
+                            <a href="https://emicb.itch.io/"><img src="assets/images/icons/joystick.svg" class="homeicon"></img></a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
 
-        <!-- Projects -->
-        <div class="row">
-            <div class="col-12">
-                <hr/>
-                <h2>Projects</h2>
-                <hr/>
-            </div>
-        </div>
-        <!-- Row of Projects #1 -->
-        <div class="row">
-            <!-- MaterialsVR -->
-            <div class="col-6">
-                <!-- Video -->
-                <div class="vidcont">
-                    <iframe class="vid" src="https://www.youtube.com/embed/uKtmDHLtuZk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                </div>
-                <!-- Project Title & Description -->
-                <h4>MaterialsVR</h4>
-                <p>This is a project that I am currently working on at the University of Illinois through the NCSA SPIN program. It is a virtual reality app developed for iOS and Android to be used with Google Cardboard, allowing it to be cheaper and more accessible to students. Molecular structures can be selected, rotated, and moved around the scene. I have also implemented gaze input, which allows the user to stare at a button for two seconds in place of physically pressing the Cardboard's button. The molecules are imported into the app through a webserver using assetbundling and the list is auto-generated so that the contents of the app can be easily updated without the users having to update the app themselves.</p>
-                <a href="https://github.com/EmiCB/MoleculesVRApp">GitHub</a>
-            </div>
-            <!-- Room VR -->
-            <div class="col-6">
-                <!-- Video -->
-                <div class="vidcont">
-                    <iframe class="vid" src="https://www.youtube.com/embed/4RHy-WEszpk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                </div>
-                <!-- Project Title & Description -->
-                <h4>RoomVR</h4>
-                <p>This is a virtual reality representation of Emma Donoghue's Room made for my Hero's Journey class' creative project. It uses Unity 2018.3.14f1 and GVR 1.2. Currently, it is an iOS app that runs on Google Cardboard. The user can change between the heights of Jack and Ma by pressing the button on the Cardboard (the equivalent of tapping the screen or clicking on a PC). Lighting can be changed by gazing at Skylight or Lamp’s shade for about 2 seconds. I chose to represent the objects in Room with simple shapes in order to more clearly show the amount of space that was available. Some smaller objects such as the foldable chairs, Plant, and Bunny are not in this scene, but may be added in the future.</p>
-                <a href="https://github.com/EmiCB/RoomVR">GitHub</a>
-            </div>
-        </div>
-
-        <!-- Row of Projects #2 -->
-        <div class="row">
-            <!-- Space Runner -->
-            <div class="col-6">
-                <!-- Video-->
-                <div class="vidcont">
-                    <iframe class="vid" src="https://www.youtube.com/embed/rjOHGfmsCrU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                </div>
-                <!-- Project Title & Description -->
-                <h4>Space Runner</h4>
-                <p>This game was my submission for the Ludum Dare 42 game jam (theme: running out of space). I took the theme quite literally in multiple senses. The player is running through a strange planet in an attempt to escape while the screen closes in around them. As time goes on, the player speeds up and visibility is decreased, making survival much more difficult. It is not perfect, but I would like to keep it as it is so I can continue to document my progress as I participate in more game jams in the future.</p>
-                <a href="https://github.com/EmiCB/LudumDare42-SpaceRunner">GitHub</a>
-                <a href="https://emicb.itch.io/space-runner">Itch.io</a>
-            </div>
-            <!-- 2D Game Engine & Platformer -->
-            <div class="col-6">
-                <!-- Video -->
-                <div class="vidcont">
-                    <iframe class="vid" src="https://www.youtube.com/embed/5mnRnOMVKmE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                </div>
-                <!-- Project Title & Description -->
-                <h4>2D Game Engine & Platformer</h4>
-                <p>This is a game engine that I programmed using Java and the Eclipse IDE. I used MajoolWIP's tutorial series to help guide me through its creation. The goal of this project was for me to see how game engines were made and learn how computers processed graphics. This section actually contains two projects. The engine is paired with a simple platformer game (also created in Java) that was made to test out the engine's capabilities.</p>
-                <a href="https://github.com/EmiCB/2DEngine">GitHub (Engine)</a>
-                <a href="https://github.com/EmiCB/2DPlatformerTest">GitHub (Game)</a>
-            </div>
-        </div>
-
-        <!-- Page Header -->
-        <div class="row">
-            <div class="col-12">
-                <hr/>
-                <h2>Research</h2>
-                <hr/>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-12">
-                <embed src="assets/images/Symposium_Poster_2019.pdf" type="application/pdf" width="100%" height="800px">
-            </div>
+        <div class="footer">
+            Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
         </div>
 
     </body>
