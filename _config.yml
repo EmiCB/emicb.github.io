@@ -19,13 +19,20 @@
 # in the templates via {{ site.myvariable }}.
 
 title: Emi Brown
-email: your-email@example.com
+email: emibrown@emicb.com
 description: >- # this means to ignore newlines until "baseurl:"
   Emi's Portfolio and Blog.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://emicb.com/" # the base hostname & protocol for your site, e.g. http://example.com
+
+# Social Account Info
 twitter_username: xemicbx
 github_username:  emicb
+linkedin_username: emi-brown-75472a183
+youtube_username: xEmiCBx
+
+# Default for author
+author: Emi Brown
 
 # Build settings
 # using regular theme in place of minima
