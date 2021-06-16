@@ -1,6 +1,9 @@
 ---
 layout: default
 ---
+<!-- Liquid Variable Assignments -->
+{% assign num_visible_posts = 3 %}
+<!-- End Variable Assignments -->
 
 <div class="home">
   {%- if page.title -%}
@@ -9,11 +12,12 @@ layout: default
 
   {{ content }}
 
-  <!-- Posts List -->
+  <!-- Projects List -->
   {%- if site.posts.size > 0 -%}
-    <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2>
+    <h2 class="post-list-heading">{{ page.list_title | default: "Recent Projects" }}</h2>
     <ul class="post-list">
-      {%- for post in site.posts -%}
+      {%- for post in site.posts limit:num_visible_posts -%}
+      {%- if post.categories contains "project" -%}
       <li>
         {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
         <span class="post-meta">{{ post.date | date: date_format }}</span>
@@ -26,11 +30,38 @@ layout: default
           {{ post.excerpt }}
         {%- endif -%}
       </li>
+      {%- endif -%}
       {%- endfor -%}
     </ul>
 
-    <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
+    <!-- <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p> -->
   {%- endif -%}
-  <!-- End Posts List -->
+  <!-- End Projects List -->
+
+  <!-- Blog Posts List -->
+  {%- if site.posts.size > 0 -%}
+    <h2 class="post-list-heading">{{ page.list_title | default: "Recent Blog Posts" }}</h2>
+    <ul class="post-list">
+      {%- for post in site.posts limit:num_visible_posts -%}
+      {%- if post.categories contains "blog" -%}
+      <li>
+        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+        <span class="post-meta">{{ post.date | date: date_format }}</span>
+        <h3>
+          <a class="post-link" href="{{ post.url | relative_url }}">
+            {{ post.title | escape }}
+          </a>
+        </h3>
+        {%- if site.show_excerpts -%}
+          {{ post.excerpt }}
+        {%- endif -%}
+      </li>
+      {%- endif -%}
+      {%- endfor -%}
+    </ul>
+
+    <!-- <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p> -->
+  {%- endif -%}
+  <!-- End Blog Posts List -->
 
 </div>

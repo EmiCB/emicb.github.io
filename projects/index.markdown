@@ -4,5 +4,5 @@
 
 layout: home-projects
 title: "Projects"
-category: project
+categories: project
 ---
