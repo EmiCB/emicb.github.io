@@ -34,6 +34,10 @@ youtube_username: xEmiCBx
 # Default for author
 author: Emi Brown
 
+# Post settings
+show_excerpts: true
+excerpt_separator: <!--more-->
+
 # Build settings
 # using regular theme in place of minima
 # theme: minima
