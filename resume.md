@@ -5,7 +5,7 @@ permalink: /resume/
 ---
 
 # Education
-## University of Illinois, Urbana-Champaign - Computer Science B.S.
+### University of Illinois, Urbana-Champaign - Computer Science B.S.
 *EXPECTED 2024*
 
 GPA: 3.79
