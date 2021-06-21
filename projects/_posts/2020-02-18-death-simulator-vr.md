@@ -8,3 +8,7 @@ video-links:
 screenshots: 
 github:      "https://github.com/EmiCB/Death-Simulator-VR"
 ---
+
+A virtual reality representation of Emily Dickinson's "I heard a fly buzz" poem made for my poetry class' creative project.
+
+<!--more-->

@@ -8,3 +8,7 @@ video-links:
 screenshots: 
 github:      "https://github.com/EmiCB/2DPlatformerTest"
 ---
+
+A simple platformer game (created in Java) that was made to test out the 2D Engine's capabilities.
+
+<!--more-->

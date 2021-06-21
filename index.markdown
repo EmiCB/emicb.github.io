@@ -4,6 +4,6 @@
 
 layout: home
 ---
-Hi! I'm Emi.
+Hi! I'm Emi, a Computer Science student driven by my love for video games and my desire to help others. I like to make indie games in my spare time. In the future, I would like to use a mixture of XR and games to assist people.
 
-Check out my [resume](/resume/)
+Check out my [resume](/resume/), [portfolio](/projects/), and [blog](/blog/) to learn more about me!
