@@ -4,7 +4,6 @@ layout: default
 <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
-    <h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
     <p class="post-meta">
       <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
         {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
@@ -13,12 +12,25 @@ layout: default
       {%- if site.author -%}
         • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">{{ site.author }}</span></span>
       {%- endif -%}</p>
+
+      <h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
   </header>
 
   {%- if page.video-links -%}
-    <div class="vid-cont">
-      <iframe class="vid" src="https://www.youtube.com/embed/8Fcfo5YMKks" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+  <center>
+  <!--
+  <div class="vid-cont">
+    <iframe width="80%" height="auto" src="{{ page.video-links }}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+  </div>
+  -->
+
+  <div class="auto-resizable-iframe">
+    <div>
+      <iframe width="87%" height="315" frameborder="0" allowfullscreen="" src="{{ page.video-links }}"></iframe>
     </div>
+  </div>
+  </center>
+  <br>
   {%- endif -%}
 
   <div class="post-content e-content" itemprop="articleBody">
