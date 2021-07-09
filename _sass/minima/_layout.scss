@@ -271,40 +271,67 @@
       @include relative-font-size(1.125);
     }
   }
+}
 
-  /*
-  .vid-cont {
-    position: relative;
-    width: 100%;
-    padding-bottom: 56.25%;
+/*
+* Videos
+*/
+.auto-resizable-iframe {
+  max-width: 800px;
+  margin: 0px auto;
+}
+
+.auto-resizable-iframe > div {
+  position: relative;
+  padding-bottom: 75%;
+  height: 0px;
+}
+
+.auto-resizable-iframe iframe {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+}
+
+/*
+* Resume
+*/
+.resume-content {
+  margin-bottom: $spacing-unit;
+
+  h1 {
+    text-align: center;
+
+    @include relative-font-size(2.325);
+
+    @include media-query($on-laptop) {
+      @include relative-font-size(2);
+    }
   }
 
-  .vid {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    border: 0;
-  }
-  */
+  h2 {
+    @include relative-font-size(2);
 
-  .auto-resizable-iframe {
-    max-width: 800px;
-    margin: 0px auto;
+    @include media-query($on-laptop) {
+      @include relative-font-size(1.75);
+    }
   }
-  
-  .auto-resizable-iframe > div {
-    position: relative;
-    padding-bottom: 75%;
-    height: 0px;
+
+  h3 {
+    @include relative-font-size(1.625);
+
+    @include media-query($on-laptop) {
+      @include relative-font-size(1.375);
+    }
   }
-  
-  .auto-resizable-iframe iframe {
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    width: 100%;
-    height: 100%;
+
+  h4 {
+    @include relative-font-size(1.25);
+
+    @include media-query($on-laptop) {
+      @include relative-font-size(1.125);
+    }
   }
 }

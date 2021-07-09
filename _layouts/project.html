@@ -18,15 +18,9 @@ layout: default
 
   {%- if page.video-links -%}
   <center>
-  <!--
-  <div class="vid-cont">
-    <iframe width="80%" height="auto" src="{{ page.video-links }}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
-  </div>
-  -->
-
   <div class="auto-resizable-iframe">
     <div>
-      <iframe width="87%" height="315" frameborder="0" allowfullscreen="" src="{{ page.video-links }}"></iframe>
+      <iframe frameborder="0" allowfullscreen="" src="{{ page.video-links }}"></iframe>
     </div>
   </div>
   </center>
